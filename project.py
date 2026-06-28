@@ -4,6 +4,11 @@ import random
 def main():
     loop_count = 3
     heads_count = 0
+    
+    print("\nWho are you?")
+    name = input(">")
+    print(f"Hello, {name}!")
+    
     print("\nTossing a coin...\n")
     
     for i in range(loop_count):
