@@ -21,7 +21,7 @@ def main():
             print("Tails")
 
     print(f"\nHeads: {heads_count}, Tails: {loop_count - heads_count}\n")
-    print(f"You {'won' if heads_count > (loop_count - heads_count) else 'lost'}")
+    print(f"{name} {'won' if heads_count > (loop_count - heads_count) else 'lost'}")
 
     
 if __name__ == "__main__":
